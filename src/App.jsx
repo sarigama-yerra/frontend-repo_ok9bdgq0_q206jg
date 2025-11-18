@@ -1,5 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import SundarbansMarquee from './components/SundarbansMarquee'
+import Sundarbans3D from './components/Sundarbans3D'
 import Destinations from './components/Destinations'
 import Tours from './components/Tours'
 import Contact from './components/Contact'
@@ -9,6 +11,8 @@ function App() {
     <div className="min-h-screen w-full bg-black text-white">
       <Navbar />
       <Hero />
+      <SundarbansMarquee />
+      <Sundarbans3D />
       <Destinations />
       <Tours />
       <Contact />
